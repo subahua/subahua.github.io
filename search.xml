@@ -21,6 +21,35 @@
     </entry>
     
     
+    
+    <entry>
+      <title>hexo搭建</title>
+      <link href="2018/1027undefined.html"/>
+      <url>2018/1027undefined.html</url>
+      
+        <content type="html"><![CDATA[<p>Android 通过hexo和github搭建博客的方法:</p><h2 id="1-注册github"><a href="#1-注册github" class="headerlink" title="1:注册github"></a>1:注册<a href="https://github.com/join">github</a></h2><p>  注册完成后，登入github，点击右下角的<strong>Desktop version</strong>- [ ] ```- [ ]<br>  点击右上角的+号下拉选项选择<strong>New repository</strong><br>  <strong>Repository name</strong>中输入格式为:github帐号名.github.io<br>  <strong>Create repository</strong> 确认 </p><h2 id="2-下载终端"><a href="#2-下载终端" class="headerlink" title="2:下载终端  - [ ]"></a>2:<a href="https://www.coolap“”k.com/apk/com.termux">下载终端</a>  - [ ]</h2><h2 id="3-安装好后，进哦-入终端，输入以下命令："><a href="#3-安装好后，进哦-入终端，输入以下命令：" class="headerlink" title="3:安装好后，进哦 入终端，输入以下命令：　　　　"></a>3:安装好后，进哦 入终端，输入以下命令：　　　　</h2><p>　　安装note.jsoffC-G，输L入分C习惯吃鸡TYI：<br>    apt-get install nodejs脚。<br>    输入y确认吃<br>    安装git<br>    apt-get install g777it |<br>    输入y确认</p><h2 id="4-安装hexo"><a href="#4-安装hexo" class="headerlink" title="4:安装hexo"></a>4:安装hexo</h2><p>   <code>00</code><br>    npm install -g hexo-cli<br>    安装完成后<br>    开始建站，输入以下命令<br>    hexo init file_name   //file_name 随便取<br>    cd file_name<br>    npm install<br>    hexo g…<br>    hexo s<br>    现在已经可以浏览博客了，用浏览器打开网址：(<a href="http://localhost:4000/">http://localhost:4000/</a>).</p><pre class="line-numbers language-none"><code class="language-none">## 5:配置ssh 输入命令 &#96;cd&#96; &#96;git config --global user.name &#39;yourname&#39;&#96; &#96;git config --global user.email &#39;your_email&#39;&#96; &#96;apt-get install autossh&#96; &#96;ssh-keygen -t rsa -C &quot;your_email&quot; &#x2F;&#x2F;设置密码 如果不需要3此回车&#96; 完成后，输入命令: &#96;cat ~&#x2F;.ssh&#x2F;id_rsa.pub&#96; **复制显示的文本** 登入github官网 点击右下角的**Desktop version** 点击最右上角的下拉选项选择**Settings** 选择**SSH and GPG Keys** 点击 **New SSH key** **title** 随便输入**key中粘贴刚刚复制的文本** ## 6：完成 进入终端，输入命令： &#96;apt-get install vim \\y确认&#96; &#96;cd file_name&#96; &#96;vim _config.yml&#96; **vim 基本命令**<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>   Esc:进入命令行模式<br>   i：进入插入模式（编写）<br>   进入命令行模式<br>   输入<br>   :wq<br>   保存并退出<br>   <pre class="line-numbers language-none"><code class="language-none">&#96;&#96;&#96;「7」  修改文件夹下的 _config.yml文件  把_config.yml中的最后的几行配置:  #Deployment  ## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html  deploy:      type:<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></p><p>  ** 修改成:**</p><pre><code>   <pre class="line-numbers language-none"><code class="language-none"># Desktop## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.htmldeploy:    type: git    repository: git@github.com:yourname&#x2F;yourname.github.io.git    branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></code></pre><p>   <strong>修改好后:</strong></p><pre class="line-numbers language-none"><code class="language-none">  hexo clean6  hexo g  npm install hexo-deployer-git--save  hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>0$<br>最后在浏览器打开网址 ** <a href="https://yourname.github.io/">https://yourname.github.io</a>** 就可以访问博客了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> Android 搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
