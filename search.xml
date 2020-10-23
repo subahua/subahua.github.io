@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>Software</title>
+      <link href="2020/1023undefined.html"/>
+      <url>2020/1023undefined.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="软件资源分享-请使用百度网盘食用。—-提取码有误，请扣我，谢谢。"><a href="#软件资源分享-请使用百度网盘食用。—-提取码有误，请扣我，谢谢。" class="headerlink" title="软件资源分享,请使用百度网盘食用。—-提取码有误，请扣我，谢谢。"></a>软件资源分享,请使用百度网盘食用。—-提取码有误，请扣我，谢谢。</h3><blockquote><h1 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h1><h2 id="Adobe"><a href="#Adobe" class="headerlink" title="Adobe"></a>Adobe</h2><p>PhotoShop-CS6:<br><a href="https://pan.baidu.com/s/1k40ttEO0rbHGcLmBNkgi9w"><br>提取码:4yzs</a><br><img src="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/ps-cs6.jpg"></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Software </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>UML</title>
       <link href="2020/1020undefined.html"/>
       <url>2020/1020undefined.html</url>
       
-        <content type="html"><![CDATA[<h1 id="1-UML的简介"><a href="#1-UML的简介" class="headerlink" title="1.UML的简介"></a>1.UML的简介</h1><ul><li>UML(Unified Modeling Language,统一建模语言):面向对象软件开发需要经过OOA(面向对象分析)、OOD(面向对象设计)、OOP(面向对象编程)三个阶段.OOA,对目标系统进行分析,建立模型,并将其文档化.OOD用面向对象的编程思想对OOA的结果进行设计,得出设计模型.UML就是对OOA与OOD进行记录的表示方法.</li><li>UML图大致上可分为静态图与动态图.</li><li>UML的发展历史,如下图:<br><a href="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/UML%20History.png">UML History</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="1-UML的简介"><a href="#1-UML的简介" class="headerlink" title="1.UML的简介"></a>1.UML的简介</h1><ul><li>UML(Unified Modeling Language,统一建模语言):面向对象软件开发需要经过OOA(面向对象分析)、OOD(面向对象设计)、OOP(面向对象编程)三个阶段.OOA,对目标系统进行分析,建立模型,并将其文档化.OOD用面向对象的编程思想对OOA的结果进行设计,得出设计模型.UML就是对OOA与OOD进行记录的表示方法.</li><li>UML图大致上可分为静态图与动态图.</li><li>UML的发展历史,如下图:<br><img src="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/UML%20History.png" alt="UML History"></li><li>UML2.0的组成:<ul><li>静态图包括用例图,类图,包图,组件图,对象图,部署图,复合结构图.</li><li>动态图包括顺序图，通信图，状态机图，活动图，定时图，交互概观图.</li></ul></li></ul>]]></content>
       
       
       <categories>
