@@ -11,7 +11,7 @@ if (windowWidth > 768) {
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo搭建, 笔记">
+    <meta name="keywords" content="Javascript, 笔记">
     <meta name="description" content="知识分享记录">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -23,7 +23,7 @@ if (windowWidth > 768) {
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo搭建 | ZERO</title>
+    <title>Javascript | ZERO</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -229,12 +229,12 @@ if (windowWidth > 768) {
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo搭建</h1>
+                    <h1 class="description center-align post-title">Javascript</h1>
                 </div>
             </div>
         </div>
@@ -351,12 +351,8 @@ if (windowWidth > 768) {
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                            <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                                <span class="chip bg-color">随笔</span>
+                            <a href="/tags/Javascript/">
+                                <span class="chip bg-color">Javascript</span>
                             </a>
                         
                     </div>
@@ -367,8 +363,8 @@ if (windowWidth > 768) {
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/hexo/" class="post-category">
-                                hexo
+                            <a href="/categories/Language-Javasciprt/" class="post-category">
+                                Language Javasciprt
                             </a>
                         
                     </div>
@@ -380,14 +376,14 @@ if (windowWidth > 768) {
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-10-27
+                    2020-12-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-10-24
+                    2020-12-25
                 </div>
                 
 
@@ -401,80 +397,7 @@ if (windowWidth > 768) {
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一：本地搭建"><a href="#一：本地搭建" class="headerlink" title="一：本地搭建"></a>一：本地搭建</h1><h2 id="1-注册GitHub账号"><a href="#1-注册GitHub账号" class="headerlink" title="1:注册GitHub账号"></a>1:注册GitHub账号</h2><p><a target="_blank" rel="noopener" href="https://github.com/">Github网址:</a><a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a></p>
-<h2 id="2-环境搭建"><a href="#2-环境搭建" class="headerlink" title="2:环境搭建"></a>2:环境搭建</h2><p>Hexo博客搭建需要Git+nodejs</p>
-<h3 id="2-1-Android手机环境"><a href="#2-1-Android手机环境" class="headerlink" title="2-1:Android手机环境"></a>2-1:Android手机环境</h3><ul>
-<li>手机搭建需要安装Linux模拟终端(例如:Termux),Termux的下载地址:<a target="_blank" rel="noopener" href="https://termux.com/,%E8%BF%9B%E5%85%A5Termux,%E7%A4%BA%E4%BE%8B%E5%9B%BE%E5%A6%82%E4%B8%8B">https://termux.com/,进入Termux,示例图如下</a>:</li>
-</ul>
-<img src="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/termux.jpg"/>
-
-<ul>
-<li><p>安装Git,Node,SSH</p>
-<pre class="line-numbers language-linux" data-language="linux"><code class="language-linux">pkg install git
-pkg install node
-pkg install openssh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-
-</li>
-</ul>
-<h3 id="2-2-Linux-Ubuntu-环境搭建"><a href="#2-2-Linux-Ubuntu-环境搭建" class="headerlink" title="2-2:Linux(Ubuntu)环境搭建"></a>2-2:Linux(Ubuntu)环境搭建</h3><ul>
-<li>安装Git，Nodejs<pre class="line-numbers language-none"><code class="language-none">sudo apt-get install git
-sudo apt-get install node
-sudo apt-get install openssh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-3-Windows环境搭建"><a href="#2-3-Windows环境搭建" class="headerlink" title="2-3:Windows环境搭建"></a>2-3:Windows环境搭建</h3><ul>
-<li>安装Git，官网链接:<a target="_blank" rel="noopener" href="https://git-scm.com/">https://git-scm.com/</a></li>
-<li>安装Node，官网链接(建议下载长期版):<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="3：安装Hexo框架"><a href="#3：安装Hexo框架" class="headerlink" title="3：安装Hexo框架"></a>3：安装Hexo框架</h2><ul>
-<li><p>如果是Android手机,进入Termux,键入命令:<code>npm install -g hexo-cli</code></p>
-</li>
-<li><p>如果为Ubuntu,进入终端,键入命令:<code>sudo npm install -g hexo-cli</code></p>
-</li>
-<li><p>Windowns环境，进入GitBash，键入命令:<code>npm install -g hexo-cli</code></p>
-</li>
-<li><p>提示以上的命令行在以下文章简称Termux</p>
-</li>
-<li><p>如果npm命令网速慢，可以更换npm软件源,命令为:<code>npm config set registry https://registry.npm.taobao.org</code></p>
-<h2 id="4-Hexo框架的一些基础命令"><a href="#4-Hexo框架的一些基础命令" class="headerlink" title="4:Hexo框架的一些基础命令"></a>4:Hexo框架的一些基础命令</h2><pre class="line-numbers language-none"><code class="language-none">新建一个网站
-hexo init &lt;文件夹名&gt;
-
-新建文章
-hexo n &lt;文章名&gt;
-
-生成静态文件
-hexo g
-
-网站部署到服务器
-hexo d
-
-本地测试,默认网址为:http:&#x2F;&#x2F;localhost:4000&#x2F;
-hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h2 id="5-创建网站-Blog"><a href="#5-创建网站-Blog" class="headerlink" title="5:创建网站(Blog)"></a>5:创建网站(Blog)</h2></li>
-<li><p>在Termux中键入命令:<code>hexo init Blog</code></p>
-</li>
-<li><p>进入刚刚生成的文件夹Blog,命令：<code>cd Blog</code></p>
-</li>
-<li><p>键入命令<code>hexo s</code></p>
-</li>
-<li><p>在浏览器中链接输入:<a target="_blank" rel="noopener" href="http://localhost:4000/%EF%BC%8C%E5%8D%B3%E5%8F%AF%E3%80%82">http://localhost:4000/，即可。</a></p>
-</li>
-<li><p>效果图展示</p>
-<img src="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/hexo1.png"/>
-**好了👌，到目前位置，Blog已经搭建成功，就差部署到Github上了**
-
-</li>
-</ul>
-<h1 id="二-部署到Github"><a href="#二-部署到Github" class="headerlink" title="二:部署到Github"></a>二:部署到Github</h1><h2 id="1-创建GitHub仓库"><a href="#1-创建GitHub仓库" class="headerlink" title="1:创建GitHub仓库"></a>1:创建GitHub仓库</h2><ul>
-<li>进入GitHub,创建一个名称为:你的用户名.github.io的仓库。如图所示:<img src="https://my-picture-bed.oss-cn-hangzhou.aliyuncs.com/Picture-%20bed/Blog/hexo2.png"/>
-
-</li>
-</ul>
-<h2 id="2-修改Blog根目录的-config-yml配置"><a href="#2-修改Blog根目录的-config-yml配置" class="headerlink" title="2:修改Blog根目录的_config.yml配置"></a>2:修改Blog根目录的_config.yml配置</h2><ul>
-<li>在_config.yml在最后做如下改动:</li>
-</ul>
+                <h1 id="web-发展史"><a href="#web-发展史" class="headerlink" title="web 发展史"></a>web 发展史</h1><p>Mosaic,是互联网历史上第一个普遍使用和能够显示图片的网页浏览器。在1993年问世。</p>
 
             </div>
             <hr/>
@@ -500,7 +423,7 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.freelove.top/2733176.html">http://www.freelove.top/2733176.html</a>
+                    <a href="http://www.freelove.top/259809.html">http://www.freelove.top/259809.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -538,12 +461,8 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
-                                <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                                    <span class="chip bg-color">随笔</span>
+                                <a href="/tags/Javascript/">
+                                    <span class="chip bg-color">Javascript</span>
                                 </a>
                             
                         </div>
@@ -711,84 +630,37 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/099757.html">
+                <a href="/259809.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="SSH记录">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Javascript">
                         
-                        <span class="card-title">SSH记录</span>
+                        <span class="card-title">Javascript</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            SSH学习记录
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-07-09
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%8D%8F%E8%AE%AE/" class="post-category">
-                                    协议
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/SSH/">
-                        <span class="chip bg-color">SSH</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2733176.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="hexo搭建">
-                        
-                        <span class="card-title">hexo搭建</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Hexo博客搭建
+                            web 发展史Mosaic,是互联网历史上第一个普遍使用和能够显示图片的网页浏览器。在1993年问世。
+
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-10-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-25
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo/" class="post-category">
-                                    hexo
+                            <a href="/categories/Language-Javasciprt/" class="post-category">
+                                    Language Javasciprt
                                 </a>
                             
                             
@@ -799,12 +671,57 @@ hexo s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/Javascript/">
+                        <span class="chip bg-color">Javascript</span>
                     </a>
                     
-                    <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                        <span class="chip bg-color">随笔</span>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/23973.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Software">
+                        
+                        <span class="card-title">Software</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            软件分享
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-23
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Software/" class="post-category">
+                                    Software
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Software/">
+                        <span class="chip bg-color">Software</span>
                     </a>
                     
                 </div>
